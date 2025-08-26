@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Información del Libro</title>
+  <link rel="stylesheet" href="estilo.css" />
+  <link rel="stylesheet" href="estilos-movil.css" media="only screen and (max-width: 790px)">
+</head>
+<body>
+  <main class="book-detail">
+    <aside class="left-side">
+      <a href="index.html" class="back-btn">←</a>
+      <div class="portada-info">
+  <img id="cover-img" src="URL_DE_PORTADA" alt="Portada del libro">
+</div>
+    
+    <div class="info-extra">
+    <div class="estado">
+  Estado: <span id="estado"></span>
+</div>
+      <div class="ubicacion" id="ubicacion">Ubicación: </div>
+    </aside>
+  </div>
+
+    <section class="right-side">
+      <h2 class="book-title" id="titulo">Título del Libro</h2>
+      <p class="autor"><strong>Autor:</strong> <span id="autor"></span></p>
+      <p><strong>Categoría:</strong> <span id="categoria"></span></p>
+      <p><strong>Editorial:</strong> <span id="editorial"></span></p>
+      <p><strong>Año de Publicación:</strong> <span id="anio"></span></p>
+      <div class="sinopsis">
+  <strong>Sinopsis:</strong>
+  <div id="sinopsis-container"></div>
+</div>
+
+    </section>
+  </main>
+
+  <script src="libro.js"></script>
+</body>
+</html>
+

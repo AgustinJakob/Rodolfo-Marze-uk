@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Biblioteca Municipal</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="estilos-movil.css" media="only screen and (max-width: 790px)">
+</head>
+<body>
+    <header class="top-bar">
+  <a href="Jardin America.html" class="logo-link">
+  <img src="img/logologo.png" alt="Logo Biblioteca" class="logo-img">
+</a>
+<img src="img/sticker.png" alt="Decoración" class="sticker-deco">
+<h1>
+  <a href="info.html" style="text-decoration: none; color: white;">
+    Biblioteca Municipal <br><strong>R. Marzeñuk</strong>
+  </a>
+</h1>
+    <a href="login.html" class="portal-btn">Portal Gestión</a>
+  </header>
+
+  <main class="main-content">
+    <div class="search-container">
+  <input type="text" id="searchInput" placeholder="Buscar">
+  <button class="search-btn">🔍<i class="fas fa-search"></i></button>
+  <div class="suggestions-box" id="suggestionsBox"></div>
+</div>
+
+
+
+
+    <div class="dropdown">
+  <button class="dropdown-toggle">Categorías ▼</button>
+  <div id="categoryMenu" class="dropdown-menu"></div>
+</div>
+
+
+
+    <section class="book-grid" id="bookGrid"></section>
+  </main>
+
+  <script src="script.js"></script>
+
+
+    <footer class="footer">
+  
+
+  <div class="footer-box horarios">
+    <h2>⏰ HORARIOS</h2>
+    <p>De 6:30hs a 18:30hs</p>
+  </div>
+
+  <div class="footer-box ubicacion">
+    <a href="https://maps.app.goo.gl/TvkBPWZ7JFDudP4W8" target="_blank">
+      <h2>📍 UBICACIÓN</h2>
+      <p>Jardín América, Argentina, 3328</p>
+    </a>
+  </div>
+
+  <div class="footer-box contacto">
+    <h2>📞 CONTACTO</h2>
+    <div class="contact-item">
+      <img src="icons/gmail.png" alt="Ícono de correo" class="icon">
+      <span>bibliotecapublicamunicipal61@gmail.com</span>
+    </div>
+    <div class="contact-item">
+      <a href="https://www.facebook.com/profile.php?id=100064852204089" target="_blank">
+        <img src="icons/facebook.png" alt="Ícono de Facebook" class="icon">
+        <span>Biblioteca R.Marzeñuk JardínAmérica</span>
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+
+</body>
+</html>

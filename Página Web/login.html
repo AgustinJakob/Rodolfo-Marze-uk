@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ingreso Usuario Autorizado</title>
+  <link rel="stylesheet" href="estilogestion.css">
+</head>
+
+  <header>
+    <a href="index.html" class="back-button">⬅</a>
+    <img src="img/logologo.png" alt="Logo Biblioteca" class="logo-header">
+  </header>
+
+<body>
+  <div class="login-container">
+    <h2>Acceso al Portal de Gestión</h2>
+    <form id="loginForm">
+      <label for="usuario">Usuario:</label>
+      <input type="text" id="usuario" required>
+
+      <label for="contrasena">Contraseña:</label>
+      <input type="password" id="contrasena" required>
+
+      <button type="submit">Ingresar</button>
+    </form>
+    <p id="errorMsg" style="color: red; display: none;">Usuario o contraseña incorrectos.</p>
+  </div>
+
+ 
+
+
+
+  <script src="login.js"></script>
+
+
+</body>
+</html>
